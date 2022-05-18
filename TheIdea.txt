@@ -1,0 +1,7 @@
+Idea: Create a web based application which will allow the creation of flashcards that can then be downloaded to MOBI format, and then downloaded to a Kindle for use on a mobile device. 
+
+Technologies: React (Single Page Application), HTML, CSS, JS, HTML to MOBI converter, 
+
+How to Execute: Single page application, with a form field for two sets of data; answer and prompt. Optional field for "name", which defaults to a number if no name is chosen.
+The number follows the number of items created by using the array item id +1 (As an array starts at 0, but we do not start counting at 0). Submit button to create array item. Creation of an array with each submitted data set, with
+the array being converted to individual cards. These cards will then be converted into a set of cards, which will be converted to a MOBI format for download to the Kindle. 
